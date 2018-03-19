@@ -1,0 +1,148 @@
+@import "node_modules/@material/button/mdc-button";
+@import "node_modules/@material/theme/mdc-theme";
+
+* {
+  --mdc-theme-primary: #03cea0;
+  box-sizing:border-box; 
+}
+
+body {
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  background: #eee;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  width: 100%;
+  max-width: 388px;
+  min-height: 529px;
+  margin: auto;
+  background: #fafafa;
+  border: 1px solid #ebebeb;
+  box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+}
+
+section {
+  padding: 0 5% 5%;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  -webkit-appearance: none;
+  display: block;
+  background: #fafafa;
+  color: #636363;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #757575;
+}
+
+/* Label */
+
+label {
+  font-weight: 500;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+  line-height: 25px
+}
+
+.email-wrapper {
+  margin-top: 21%;
+}
+
+.pswd-wrapper {
+  margin-top: 12%;
+}
+
+.email-forgot-wrapper {
+  margin-top: 17%;
+}
+
+.btn-wrapper {
+  margin-top: 26%;
+  text-align: center;
+}
+
+header {
+  margin-top: 15%;
+  height: 15%;
+  text-align: center;
+}
+
+h1 {
+  color: var(--mdc-theme-primary);
+  font-size: 14px
+}
+
+h3 {
+  margin: 21% 0 0;
+  color: #9b9b9b;
+  text-align: center;
+}
+
+.forgot {
+  float: right;
+  color: #9b9b9b;
+  text-decoration: none;
+}
+
+.input {
+  height: 9%;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #d8d8d8;
+  color: #9b9b9b;
+  font-size: 14px
+}
+
+.input:disabled {
+  background-color: #ddd;
+}
+
+.form {
+    max-width: 344px;
+    width: 88%; 
+    margin-top: 17%;
+    text-align: left;
+}
+
+.msg-wrapper {
+  margin-top: -20%;
+  text-align: center;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+  font-size: 13px
+}
+
+.form-button {
+  width: 100%;
+  max-width: 344px;
+  height: 9%;
+  position: relative;
+  border-radius: 5px;
+  text-transform: none;
+}
+
+.form-button span {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-button:disabled {
+  display: none;
+  visibility: hidden;
+}
+
+.btn-forgot-wrapper {
+  margin-top: 34%;
+}
+
